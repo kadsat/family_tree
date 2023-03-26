@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<!-- 
+<family>
+    <name gender="M">dummy</name>
+    <spouse>dummy</spouse>
+    <children>
+    </children>
+</family> 
+-->
+<!-- actual family details file -->
+<family>
+    <name gender="M">kadayam maadan servaikarar</name>
+    <spouse>unknown</spouse>
+    <children>
+        <family>
+            <name gender="M">sivanandhavan servaikarar</name>
+            <spouse>unknown</spouse>
+            <children>
+                <family>
+                    <name gender="M">madakannu servaikarar</name>
+                    <spouse>unknown</spouse>
+                    <children>
+                        <family>
+                            <name gender="M">sivanandhavan servai</name>
+                            <spouse>dummy</spouse>
+                            <children>
+                                <family>
+                                    <name gender="M">madakannu servaikarar</name>
+                                    <spouse>unknown</spouse>
+                                    <children>
+                                    </children>
+                                </family>
+                                <family>
+                                    <name gender="M">arunachallam servaikarar</name>
+                                    <spouse>unknown</spouse>
+                                    <children>
+                                    </children>
+                                </family>
+                                <family>
+                                    <name gender="M">thalikku vaeli servaikarar</name>
+                                    <spouse>unknown</spouse>
+                                    <children>
+                                    </children>
+                                </family>
+                                <family>
+                                    <name gender="M">sandhaana kumarar @ ponnaiya servaikarar</name>
+                                    <spouse>unknown</spouse>
+                                    <children>
+                                    </children>
+                                </family>
+                                <family>
+                                    <name gender="M">podhigachalam servaikarar</name>
+                                    <spouse>unknown</spouse>
+                                    <children>
+                                    </children>
+                                </family>
+                            </children>
+                        </family>
+                    </children>
+                </family>
+                <family>
+                    <name gender="M">arunchallam servaikarar</name>
+                    <spouse>unknown</spouse>
+                    <children>
+                    </children>
+                </family>
+                <family>
+                    <name gender="M">uthira maadan servaikarar</name>
+                    <spouse>unknown</spouse>
+                    <children>
+                        <family>
+                            <name gender="M">madakannu servaikarar @ seeni servaikarar</name>
+                            <spouse>unknown</spouse>
+                            <children>
+                                <family>
+                                    <name gender="M">arunachalla nadar</name>
+                                    <spouse>thazhambu</spouse>
+                                    <children>
+                                        <family>
+                                            <name gender="F">visalatchi</name>
+                                            <spouse occupation="collector">ponnuchamy</spouse>
+                                        </family>
+                                    </children>
+                                    <spouse>baghyalakshmi</spouse>
+                                    <children>
+                                        <family>
+                                            <name gender="F">kanagam</name>
+                                            <spouse>thangasamy o.t</spouse>
+                                        </family>
+                                        <family>
+                                            <name gender="M">nataraja srinivasan</name>
+                                            <spouse>sarojini devi</spouse>
+                                            <children>
+                                                <family>
+                                                    <name gender="M">jeeva arunachallam</name>
+                                                    <spouse>seeni vasuki</spouse>
+                                                </family>
+                                                <family>
+                                                    <name gender="F">latha devi</name>
+                                                    <spouse>kumaraswamy thisaiveerapandian</spouse>
+                                                </family>
+                                                <family>
+                                                    <name gender="M">ramesh</name>
+                                                    <spouse>uma maheshwari</spouse>
+                                                    <children>
+                                                        <family>
+                                                            <name gender="F">vineetha</name>
+                                                            <spouse>unknown</spouse>
+                                                        </family>
+                                                        <name gender="F">preetha</name>
+                                                    </children>
+                                                </family>
+                                                <family>
+                                                    <name gender="M">retnaselvan</name>
+                                                    <spouse>santha kumari</spouse>
+                                                    <children>
+                                                        <family>
+                                                            <name gender="M">satiesh arun raj</name>
+                                                            <spouse>adrija barvadheesh</spouse>
+                                                        </family>
+                                                        <family>
+                                                            <name gender="F">harshitha</name>
+                                                            <spouse>pradeep kumar</spouse>
+                                                        </family>
+                                                        <family>
+                                                            <name gender="M">nithin</name>
+                                                            <spouse>kirija</spouse>
+                                                        </family>
+                                                    </children>
+                                                </family>
+                                            </children>
+                                        </family>
+                                        <family>
+                                            <name gender="M">kumaraesa srinivasan</name>
+                                            <spouse>unknown</spouse>
+                                            <children>
+                                                <family>
+                                                    <name gender="F">kanchana devi</name>
+                                                    <spouse>thiagarajan</spouse>
+                                                </family>
+                                                <family>
+                                                    <name gender="M">stalin jeyachandran</name>
+                                                    <spouse>geetha</spouse>
+                                                    <children>
+                                                        <family>
+                                                            <name gender="M">eshwar</name>
+                                                            <spouse>unknown</spouse>
+                                                            <children>
+                                                                <name>zoya</name>
+                                                            </children>
+                                                        </family>
+                                                    </children>
+                                                </family>
+                                                <family>
+                                                    <name gender="F">padhmini</name>
+                                                    <spouse>pon ramachandran</spouse>
+                                                </family>
+                                                <family>
+                                                    <name gender="M">ravi arunan</name>
+                                                    <spouse>janaki</spouse>
+                                                    <children>
+                                                        <family>
+                                                            <name gender="F">sathvika</name>
+                                                            <spouse>unknown</spouse>
+                                                            <children>
+                                                                <name gender="F">unknown</name>
+                                                            </children>
+                                                        </family>
+                                                        <family>
+                                                            <name gender="F">niveditha</name>
+                                                            <spouse>unknown</spouse>
+                                                        </family>
+                                                    </children>
+                                                </family>
+                                            </children>
+                                        </family>
+                                        <family>
+                                            <name gender="F">padhmavathi</name>
+                                            <spouse>thangasamy o.t</spouse>
+                                        </family>
+                                    </children>
+                                </family>
+                        <family>
+                            <name gender="F">unknown</name>
+                        </family>
+                        <family>
+                            <name gender="F">unknown</name>
+                        </family>
+                        <family>
+                            <name gender="F">unknown</name>
+                        </family>
+                            </children>
+                        </family>                
+                    </children>
+                </family>
+            </children>
+        </family>
+    </children>
+</family>
