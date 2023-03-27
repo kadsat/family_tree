@@ -15,7 +15,7 @@ function Person(props) {
       </div>
       <div className='child'>
         {
-          isClicked? 
+          isClicked && 'children' in props.state? 
             props.state.children.map(
               (child) => !!child ? <Person state={child}/> : null
             )
