@@ -4,8 +4,10 @@ import './App.css';
 
 function Person(props) {
   const [isClicked, setClicked] = useState(false);
+
   let name   = props.state.name;
   let spouse = props.state.spouse;
+  
   return (
     <div className='parent'>
       <div className='contact-card'>
