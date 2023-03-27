@@ -6,17 +6,18 @@ function Person(props) {
   const [isClicked, setClicked] = useState(false);
   let name   = props.state.name;
   let spouse = props.state.spouse;
-  //{isClicked? <Person state={props.state.children[0]}/>: null}
   return (
-    <div className='App'>
-      <p>{name}</p>
-      <p>{spouse}</p>
-      <button onClick={() => setClicked(!isClicked)}>children</button>
-      <div style={{textIndent: '40'}}>
+    <div className='parent'>
+      <div className='contact-card'>
+        <p>{name}</p>
+        <p>{spouse}</p>
+        <button onClick={() => setClicked(!isClicked)}>children</button>
+      </div>
+      <div className='child'>
         {
           isClicked? 
             props.state.children.map(
-              (child) => <Person state={child}/>
+              (child) => !!child ? <Person state={child}/> : null
             )
           : 
           null
