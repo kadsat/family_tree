@@ -13,41 +13,39 @@ function Person(props) {
   let spouse = props.person.spouse;
 
   return (
-    <>
-      <ul>
-        <div className='card'>
-          <p>{name}</p>
-          <p>{spouse}</p>
-          <button onClick={() => setClicked(!isClicked)}>children</button>
-        </div>
-        {
-          /*
-            shorthand conditional to see if children attribute is present
-            and if the user clicked on the expand/children button
-          */
-          isClicked && 'children' in props.person? 
-            props.person.children.map(
-              (child) => {
-                return !!child ? <li><Person person={child} /></li> : null;
-              }
-            )
-          : 
-          null
-        }
-      </ul>
-    </>
+    <ul>
+      <div className='card'>
+        <p>{name}</p>
+        <p>{spouse}</p>
+        <button onClick={() => setClicked(!isClicked)}>children</button>
+      </div>
+      {
+        /*
+          shorthand conditional to see if children attribute is present
+          and if the user clicked on the expand/children button
+        */
+        isClicked && 'children' in props.person? 
+          props.person.children.map(
+            (child) => {
+              return !!child ? <li><Person person={child} /></li> : null;
+            }
+          )
+        : 
+        null
+      }
+    </ul>
   );
 }
-
 
 function App() {
   const [person, setPerson] = useState({});
 
   useEffect(() => {
-    fetch('http://localhost:8000/')
-      .then(response => response.json())
-      .then(person => setPerson(person));
-  }, []);
+      fetch('http://localhost:8000/')
+        .then(response => response.json())
+        .then(person => setPerson(person));
+    },[]
+  );
 
   return (
     <li>
