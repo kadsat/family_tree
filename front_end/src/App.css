@@ -1,11 +1,19 @@
+.card {
+  max-width: 200 px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: auto;
+  text-align: center;
+  color: green;
+  padding: 5px 5px 5px 5px;
+}
 ul {
-  color: blue;
   display: inline;
-  white-space: nowrap;
+  padding-left: 0;
 }
 li {
-  color: blue;
-  border: 1px solid black;
   display: inline-table;
   white-space: nowrap;
+  color: blue;
+  /*border: 1px solid black;
+  border-top: 1px solid red;*/
 }

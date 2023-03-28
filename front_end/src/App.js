@@ -14,12 +14,12 @@ function Person(props) {
 
   return (
     <>
-      <div className='card'>
-        <p>{name}</p>
-        <p>{spouse}</p>
-        <button onClick={() => setClicked(!isClicked)}>children</button>
-      </div>
       <ul>
+        <div className='card'>
+          <p>{name}</p>
+          <p>{spouse}</p>
+          <button onClick={() => setClicked(!isClicked)}>children</button>
+        </div>
         {
           /*
             shorthand conditional to see if children attribute is present
@@ -50,7 +50,9 @@ function App() {
   }, []);
 
   return (
-    <Person person={person}/>
+    <li>
+      <Person person={person}/>
+    </li>
   );
 }
 
