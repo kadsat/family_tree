@@ -9,31 +9,33 @@ function Person(props) {
   */
   const [isClicked, setClicked] = useState(false);
 
-  let name   = props.state.name;
-  let spouse = props.state.spouse;
+  let name   = props.person.name;
+  let spouse = props.person.spouse;
 
   return (
-    <div className='parent'>
-      <div className='contact-card'>
+    <>
+      <div className='card'>
         <p>{name}</p>
         <p>{spouse}</p>
         <button onClick={() => setClicked(!isClicked)}>children</button>
       </div>
-      <div className='child'>
+      <ul>
         {
           /*
             shorthand conditional to see if children attribute is present
             and if the user clicked on the expand/children button
           */
-          isClicked && 'children' in props.state? 
-            props.state.children.map(
-              (child) => !!child ? <Person state={child}/> : null
+          isClicked && 'children' in props.person? 
+            props.person.children.map(
+              (child) => {
+                return !!child ? <li><Person person={child} /></li> : null;
+              }
             )
           : 
           null
         }
-      </div>
-    </div>
+      </ul>
+    </>
   );
 }
 
@@ -48,9 +50,7 @@ function App() {
   }, []);
 
   return (
-    <div>
-      <Person state={person}/>
-    </div>
+    <Person person={person}/>
   );
 }
 

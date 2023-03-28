@@ -22,7 +22,7 @@
                     <children>
                         <family>
                             <name gender="M">sivanandhavan servai</name>
-                            <spouse>dummy</spouse>
+                            <spouse>unknown</spouse>
                             <children>
                                 <family>
                                     <name gender="M">madakannu servaikarar</name>
@@ -92,7 +92,7 @@
                                             <spouse>sarojini devi</spouse>
                                             <children>
                                                 <family>
-                                                    <name gender="M">jeeva arunachallam</name>
+                                                    <name gender="M">jeeva @ arunachallam</name>
                                                     <spouse>seeni vasuki</spouse>
                                                 </family>
                                                 <family>
@@ -146,7 +146,7 @@
                                                             <name gender="M">eshwar</name>
                                                             <spouse>unknown</spouse>
                                                             <children>
-                                                                <name>zoya</name>
+                                                                <name gender="F">zoya</name>
                                                             </children>
                                                         </family>
                                                     </children>
