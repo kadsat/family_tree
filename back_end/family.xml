@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <!-- 
 <family>
-    <name gender="M">dummy</name>
-    <spouse>dummy</spouse>
+    <name gender="M">unknown</name>
+    <spouse>unknown</spouse>
     <children>
     </children>
 </family> 
@@ -54,15 +54,15 @@
                                     <children>
                                         <family>
                                             <name gender="M">sivanaindha perumal</name>
-                                            <spouse>dummy</spouse>
+                                            <spouse>unknown</spouse>
                                             <children>
                                                 <family>
                                                     <name gender="M">paramasivan</name>
-                                                    <spouse>dummy</spouse>
+                                                    <spouse>unknown</spouse>
                                                     <children>
                                                         <family>
                                                             <name gender="M">vasan</name>
-                                                            <spouse>dummy</spouse>
+                                                            <spouse>unknown</spouse>
                                                             <children>
                                                             </children>
                                                         </family>
@@ -70,13 +70,13 @@
                                                 </family>
                                                 <family>
                                                     <name gender="M">thalikku vaeli</name>
-                                                    <spouse>dummy</spouse>
+                                                    <spouse>unknown</spouse>
                                                     <children>
                                                     </children>
                                                 </family>
                                                 <family>
                                                     <name gender="M">balakrishnan</name>
-                                                    <spouse>dummy</spouse>
+                                                    <spouse>unknown</spouse>
                                                     <children>
                                                     </children>
                                                 </family>
@@ -84,25 +84,25 @@
                                         </family>
                                         <family>
                                             <name gender="M">arumuga nadar</name>
-                                            <spouse>dummy</spouse>
+                                            <spouse>unknown</spouse>
                                             <children>
                                                 <family>
                                                     <name gender="M">chellappa</name>
-                                                    <spouse>dummy</spouse>
+                                                    <spouse>unknown</spouse>
                                                     <children>
                                                         <family>
                                                             <name gender="M">arumuga velan</name>
-                                                            <spouse>dummy</spouse>
+                                                            <spouse>unknown</spouse>
                                                             <children>
                                                                 <family>
                                                                     <name gender="M">leo chellapa</name>
-                                                                    <spouse>dummy</spouse>
+                                                                    <spouse>unknown</spouse>
                                                                     <children>
                                                                     </children>
                                                                 </family>
                                                                 <family>
                                                                     <name gender="M">libert</name>
-                                                                    <spouse>dummy</spouse>
+                                                                    <spouse>unknown</spouse>
                                                                     <children>
                                                                     </children>
                                                                 </family>
@@ -114,15 +114,15 @@
                                         </family>
                                         <family>
                                             <name gender="M">arunachala nadar</name>
-                                            <spouse>dummy</spouse>
+                                            <spouse>unknown</spouse>
                                             <children>
                                                 <family>
                                                     <name gender="M">agatheeswaran</name>
-                                                    <spouse>dummy</spouse>
+                                                    <spouse>unknown</spouse>
                                                     <children>
                                                         <family>
                                                             <name gender="M">balaji</name>
-                                                            <spouse>dummy</spouse>
+                                                            <spouse>unknown</spouse>
                                                             <children>
                                                             </children>
                                                         </family>
@@ -130,23 +130,23 @@
                                                 </family>
                                                 <family>
                                                     <name gender="M">ganesan</name>
-                                                    <spouse>dummy</spouse>
+                                                    <spouse>unknown</spouse>
                                                     <children>
                                                         <family>
                                                             <name gender="M">ramesh</name>
-                                                            <spouse>dummy</spouse>
+                                                            <spouse>unknown</spouse>
                                                             <children>
                                                             </children>
                                                         </family>
                                                         <family>
                                                             <name gender="M">chellapa</name>
-                                                            <spouse>dummy</spouse>
+                                                            <spouse>unknown</spouse>
                                                             <children>
                                                             </children>
                                                         </family>
                                                         <family>
                                                             <name gender="M">stalin</name>
-                                                            <spouse>dummy</spouse>
+                                                            <spouse>unknown</spouse>
                                                             <children>
                                                             </children>
                                                         </family>
@@ -154,11 +154,11 @@
                                                 </family>
                                                 <family>
                                                     <name gender="M">thaenaiya</name>
-                                                    <spouse>dummy</spouse>
+                                                    <spouse>unknown</spouse>
                                                     <children>
                                                         <family>
                                                             <name gender="M">kumar</name>
-                                                            <spouse>dummy</spouse>
+                                                            <spouse>unknown</spouse>
                                                             <children>
                                                             </children>
                                                         </family>
@@ -166,11 +166,11 @@
                                                 </family>
                                                 <family>
                                                     <name gender="M">selvam</name>
-                                                    <spouse>dummy</spouse>
+                                                    <spouse>unknown</spouse>
                                                     <children>
                                                         <family>
                                                             <name gender="M">papanasam @ raghuvaran</name>
-                                                            <spouse>dummy</spouse>
+                                                            <spouse>unknown</spouse>
                                                             <children>
                                                             </children>
                                                         </family>
@@ -178,7 +178,7 @@
                                                 </family>
                                                 <family>
                                                     <name gender="M">jeyabal</name>
-                                                    <spouse>dummy</spouse>
+                                                    <spouse>unknown</spouse>
                                                     <children>
                                                     </children>
                                                 </family>
@@ -186,7 +186,7 @@
                                         </family>
                                         <family>
                                             <name gender="M">ramasamy nadar</name>
-                                            <spouse>dummy</spouse>
+                                            <spouse>unknown</spouse>
                                             <children>
                                             </children>
                                         </family>
