@@ -5,7 +5,7 @@
   text-align: center;
   color: purple;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding: 5px 5px 5px 5px;
+  padding: 10px 10px 10px 10px;
 }
 ul {
   display: inline;
@@ -14,7 +14,6 @@ ul {
 li {
   display: inline-table;
   white-space: nowrap;
-  color: blue;
   /*border: 1px solid black;
   border-top: 1px solid red;*/
 }
