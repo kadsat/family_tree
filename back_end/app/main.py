@@ -1,8 +1,6 @@
-#import xml.etree.ElementTree as ET
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-#from family_parser import xml_to_json
-from routers import ROUTER
+from routers import router
 
 app = FastAPI()
 
@@ -18,4 +16,4 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-app.include_router(ROUTER)
+app.include_router(router)
