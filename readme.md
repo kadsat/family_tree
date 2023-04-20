@@ -1,10 +1,12 @@
 # Family tree project
 
-The project uses React for the front end and fast api for the back end
+## objective
+
+TO create a Front end that effectively demonstrates the family tree spanning 8 generations.
 
 ## dependencies
 
-various dependencies are listed in the `back_end/requirements.txt` file and `front_end/package.json`, for the back end and front end respectively.
+The project uses React for the front end and fast api for the back end,Various dependencies are listed in the `back_end/requirements.txt` file and `front_end/package.json`, for the back end and front end respectively.
 
 ## how to get started 
 
