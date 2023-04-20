@@ -1,6 +1,6 @@
 import xml.etree.ElementTree as ET
 from fastapi import APIRouter
-from dependencies import xml_to_json
+from .dependencies import xml_to_json
 
 router = APIRouter(
     prefix= '',
