@@ -1,3 +1,4 @@
+import os
 import xml.etree.ElementTree as ET
 from fastapi import APIRouter
 from .dependencies import xml_to_json
@@ -9,6 +10,6 @@ router = APIRouter(
 
 @router.get("/")
 async def root():
-    _xml = ET.parse('family.xml')
-    _output = xml_to_json(_xml.getroot())
+    tree = ET.parse(os.path.dirname(__file__) + '/family.xml')
+    _output = xml_to_json(tree.getroot())
     return _output

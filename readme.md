@@ -10,6 +10,6 @@ The project uses React for the front end and fast api for the back end,Various d
 
 ## how to get started 
 
-1. run `uvicorn main:app --reload` from `./back_end` to start the back end application.
+1. run `uvicorn app.main:app --reload` from `./back_end` to start the back end application.
 2. run `npm start` from `./front_end` to start the front end application.
 3. start using the app!!
