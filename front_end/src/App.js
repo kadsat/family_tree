@@ -2,11 +2,10 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 
+
 function Person(props) {
-  /* 
-    isClicked state is used by the user to display the children from
-    a particular family, if there are any.
-  */
+  // isClicked state is used by the user to display the children from
+  // a particular family, if there are any.
   const [isClicked, setClicked] = useState(false);
 
   let name   = props.person.name;
@@ -20,14 +19,12 @@ function Person(props) {
         <button onClick={() => setClicked(!isClicked)}>children</button>
       </div>
       {
-        /*
-          shorthand conditional to see if children attribute is present
-          and if the user clicked on the expand/children button
-        */
+        //  shorthand conditional to see if children attribute is present
+        //  and if the user clicked on the expand/children button
         isClicked && 'children' in props.person? 
           props.person.children.map(
-            (child) => {
-              return !!child ? <li><Person person={child} /></li> : null;
+            (child,index) => {
+              return !!child ? <li><Person person={child} key={index}/></li> : null;
             }
           )
         : 
@@ -49,7 +46,7 @@ function App() {
 
   return (
     <li>
-      <Person person={person}/>
+      <Person person={person} key={123}/>
     </li>
   );
 }
