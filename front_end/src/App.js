@@ -11,30 +11,41 @@ function Person({person}) {
   let name   = person.name;
   let spouse = person.spouse;
 
+  const handleClick = () => {
+    setClicked(!isClicked)
+  }
+
+  const recurseDisplay = (child, index) => {
+    if (!!child){
+      return (
+        <li>
+          <Person 
+            key={index}
+            person={child}
+          />
+        </li>
+      );
+    }
+    else {
+      return null;
+    }
+  }
+
   return (
     <ul>
       <div className='card'>
         <p>{name}</p>
         <p>{spouse}</p>
-        <button onClick={() => setClicked(!isClicked)}>children</button>
+        <button onClick={handleClick}>children</button>
       </div>
       {
-        //  shorthand conditional to see if children attribute is present
-        //  and if the user clicked on the expand/children button
-        isClicked && 'children' in person? 
-          person.children.map(
-            (child,index) => {
-              return !!child ? <li><Person person={child} key={index}/></li> : null;
-            }
-          )
-        : 
-        null
+        isClicked && 'children' in person && person.children.map(recurseDisplay)
       }
     </ul>
   );
 }
 
-function App() {
+export default function App() {
   const [person, setPerson] = useState({});
 
   useEffect(() => {
@@ -50,5 +61,3 @@ function App() {
     </li>
   );
 }
-
-export default App;
