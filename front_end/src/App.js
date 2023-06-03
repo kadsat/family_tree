@@ -4,8 +4,6 @@ import './App.css';
 
 
 function Person({person}) {
-  // isClicked state is used by the user to display the children from
-  // a particular family, if there are any.
   const [isClicked, setClicked] = useState(false);
 
   let name   = person.name;
@@ -39,7 +37,9 @@ function Person({person}) {
         <button onClick={handleClick}>children</button>
       </div>
       {
-        isClicked && 'children' in person && person.children.map(recurseDisplay)
+        isClicked && 
+        'children' in person && 
+        person.children.map(recurseDisplay)
       }
     </ul>
   );
