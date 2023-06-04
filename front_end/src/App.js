@@ -1,7 +1,7 @@
 //import logo from './logo.svg';
 import React, { useState, useEffect } from 'react';
 import './App.css';
-
+//import 'bootstrap/dist/css/bootstrap.css';
 
 function Person({person}) {
   const [isClicked, setClicked] = useState(false);
@@ -31,15 +31,19 @@ function Person({person}) {
 
   return (
     <ul>
-      <div className='card'>
-        <p>{name}</p>
-        <p>{spouse}</p>
-        <button onClick={handleClick}>children</button>
+      <div className='tree-node'>
+        <div className='card'>
+          <p>{name}</p>
+          <p>{spouse}</p>
+          <button onClick={handleClick}>children</button>
+        </div>
       </div>
       {
         isClicked && 
         'children' in person && 
-        person.children.map(recurseDisplay)
+        <div className='tree-node-children'>
+          {person.children.map(recurseDisplay)}
+        </div>
       }
     </ul>
   );
@@ -56,8 +60,12 @@ export default function App() {
   );
 
   return (
-    <li>
-      <Person person={person} key={123}/>
-    </li>
+    <div className='container'>
+      <div className='slide'>
+        <div className='tree'>
+          <li><Person person={person} key={123}/></li>
+        </div>
+      </div>
+    </div>
   );
 }
