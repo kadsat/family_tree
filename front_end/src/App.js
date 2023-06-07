@@ -1,17 +1,21 @@
 //import logo from './logo.svg';
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useId } from 'react';
+
+
 import './App.css';
 //import 'bootstrap/dist/css/bootstrap.css';
 
 function Person({person}) {
-  const [isClicked, setClicked] = useState(false);
+  //const [isClicked, setClicked] = useState(false);
 
   let name   = person.name;
   let spouse = person.spouse;
 
+  /*
   const handleClick = () => {
     setClicked(!isClicked)
   }
+  */
 
   const recurseDisplay = (child, index) => {
     if (!!child){
@@ -35,11 +39,11 @@ function Person({person}) {
         <div className='card'>
           <p>{name}</p>
           <p>{spouse}</p>
-          <button onClick={handleClick}>children</button>
+          {/* <button onClick={handleClick}>children</button> */}
         </div>
       </div>
       {
-        isClicked && 
+        //isClicked && 
         'children' in person && 
         <div className='tree-node-children'>
           {person.children.map(recurseDisplay)}
@@ -60,12 +64,14 @@ export default function App() {
   );
 
   return (
-    <div className='container'>
-      <div className='slide'>
-        <div className='tree'>
-          <li><Person person={person} key={123}/></li>
+    <>
+      <div className='container'>
+        <div className='slide'>
+          <div className='tree'>
+            <li><Person person={person} key={useId()}/></li>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
