@@ -1,5 +1,5 @@
 //import logo from './logo.svg';
-import React, { useState, useEffect, useId } from 'react';
+import React, { useState, useEffect } from 'react';
 
 
 import './App.css';
@@ -59,7 +59,8 @@ export default function App() {
   useEffect(() => {
       fetch('http://localhost:8000/')
         .then(response => response.json())
-        .then(person => setPerson(person));
+        .then(person => setPerson(person))
+        .catch(() => console.error());
     },[]
   );
 
@@ -68,7 +69,10 @@ export default function App() {
       <div className='container'>
         <div className='slide'>
           <div className='tree'>
-            <li><Person person={person} key={useId()}/></li>
+            {
+              Object.keys(person).length > 0 && 
+              <li><Person person={person} key={'root-id'}/></li>
+            }
           </div>
         </div>
       </div>
